@@ -1,0 +1,16 @@
+{
+  "name": "wanandroidharmonylearn",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "@ohos/hypium": "1.0.6",
+    "@ohos/materialprogressbar": "^2.0.2",
+    "@ohos/pulltorefresh": "2.0.1"
+  },
+}
