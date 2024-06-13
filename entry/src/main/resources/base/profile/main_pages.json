@@ -1,5 +1,10 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/WebPage",
+    "pages/Login",
+    "pages/SearchEntry",
+    "pages/SearchResult",
+    "pages/CollectList"
   ]
 }

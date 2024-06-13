@@ -118,6 +118,10 @@ export default class Api {
     return requestSync("/user/logout/json", http.RequestMethod.GET);
   }
 
+  async register(username: string, password: string, rePassword: String): Promise<Response<User>> {
+    return requestSync("/user/register", http.RequestMethod.POST, `username=${username}&password=${password}&repassword=${rePassword}`);
+  }
+
   async getUserInfo(): Promise<Response<User>> {
     return requestSync("/lg/coin/userinfo/json", http.RequestMethod.GET);
   }
